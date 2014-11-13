@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+//キャラクタと平面との距離の算出
 public class PlaneDistance : MonoBehaviour
 {
 

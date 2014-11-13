@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+//二次の外積と内積
 public class CrossDot2D : MonoBehaviour
 {
 		Vector2 v, w, wNorm;
