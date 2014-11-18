@@ -23,5 +23,8 @@ public class dotCrossLabo2 : Editor
 				line.nq = line.n.normalized * Vector3.Dot (line.q, line.n.normalized);
 				Handles.DrawAAPolyLine (8, Vector3.zero, line.nq);
 				Handles.DrawWireDisc (line.nq, line.n, (line.nq - line.q).magnitude);
+
+				//表裏を判定するだけなら正規化は必要ない
+				line.d = Vector3.Dot (line.n, line.q - line.p);
 		}
 }
