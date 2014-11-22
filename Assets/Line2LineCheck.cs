@@ -28,6 +28,7 @@ public class Line2LineCheck : MonoBehaviour
 				t = cross_common.magnitude / cross_vw.magnitude;
 				test = w * -t;
 
+				//目視確認用
 				Debug.DrawLine (vEnd, vEnd + common, Color.grey);
 				Debug.DrawLine (Vector3.zero, cross_vw, Color.white);
 				Debug.DrawLine (Vector3.zero, cross_common, Color.grey);
