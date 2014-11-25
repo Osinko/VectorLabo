@@ -8,14 +8,13 @@ public class Line2LineCheck2 : MonoBehaviour
 		public  Vector3 vStart, vEnd, wStart, wEnd;
 		public bool crossCheck;
 
+		Vector3 cross_vw, cross_common, cross_common2;
 		Vector3 crossPoint, crossPoint2;
 		Vector3 p1, p2, p3, p4;
 	
 		float t1, t2;
 		Vector3 newVector, newVector2;
 		bool crossNormalCheck, lengthCheck, insideCheck;
-
-		Vector3 cross_vw, cross_common, cross_common2;
 
 		void Update ()
 		{
